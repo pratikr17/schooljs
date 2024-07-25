@@ -1,0 +1,893 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Ful{
+    height: 5000px;
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+}
+.Head {
+    height: 230px;
+    width: 100%;
+    background-color: aqua;
+   
+}
+.Head1 {
+    height: 180px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.I0 {
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    background: url(./schpic/ic.jpg) no-repeat;
+    background-size:100% 100% ;
+    padding-left: 90px;
+}
+
+.I1 {
+    height: 100%;
+    width: 60%;
+    background-color: white;  
+}
+.I1 h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: rgb(44, 44, 120);
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.I1 h1 {
+    text-align: center;
+    margin-right: 65px;
+    color: rgb(179, 103, 41);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.I2 {
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 50px;
+}
+/* ============================ */
+.Navb {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(44, 44, 120);
+}
+
+.Navb .n li {
+    float: left;
+    list-style: none;
+    line-height: 50px;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+}
+
+.Navb .n {
+    margin-left: 40px;
+}
+
+.n a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.n li:hover {
+    background-color: rgb(52, 95, 151);
+}
+
+.n1 li {
+    background-color: white;
+    display: none;
+    position: relative;
+}
+
+.n li:hover .n1 li {
+    display: block;
+}
+
+.n1 a {
+    color: black;
+}
+
+/* ==================================== */
+.n2 li {
+    float: left;
+}
+
+.n2 {
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    display: none;
+}
+
+/* ============================ */
+.n3:hover .n2 {
+    display: block;
+}
+
+/* ============================= */
+.n li:hover {
+    background-color: rgb(52, 95, 151);
+}
+
+.s li {
+    background-color: white;
+    display: none;
+    position: relative;
+}
+
+.n li:hover .s li {
+    display: block;
+}
+
+.s a {
+    color: black;
+}
+
+/* ========================= */
+.n li:hover {
+    background-color: rgb(52, 95, 151);
+}
+
+.acd li {
+    background-color: white;
+    display: none;
+    position: relative;
+}
+
+.n li:hover .acd li {
+    display: block;
+}
+
+.acd a {
+    color: black;
+}
+
+/* ======================== */
+.n li:hover {
+    background-color: rgb(52, 95, 151);
+}
+
+.fac li {
+    background-color: white;
+    display: none;
+    position: relative;
+}
+
+.n li:hover .fac li {
+    display: block;
+}
+
+.fac a {
+    color: black;
+}
+
+
+#p {
+    position: relative;
+    display: inline;
+  }
+
+  #p::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: red;
+    height: 6px;
+    width: 0%;
+    transition: 1s;
+  }
+
+  #p:hover::after {
+    width: 100%;
+  }
+/* =============== */
+.Hr{
+    height: 650px;
+    width: 100%;
+}
+.p1 {
+    height: 610px;
+    width: 100%;
+    background-color: brown;
+    background: url(./schpic/sh.avif) no-repeat;
+    background-size: 100% 100%;
+}
+
+.p2 {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(63, 153, 153);
+    color: white;
+    line-height: 40px;
+}
+/* ===================== */
+.Abt {
+    height: 1600px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+.Abt .Abt1{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+ .Abt1 .in1 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/school.png) no-repeat;
+    background-size:110% 100% ;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px ;
+    
+}
+
+.Abt1 .in2 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    
+}
+
+.in2 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.in2 h1 a {
+    text-decoration: none;
+}
+
+.in2 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.in2 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* ============================ */
+.Abt .fo {
+    height: 400px;
+    width: 90%;
+    background-color: white;
+   display: flex;
+}
+
+.fo .fo1 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+  
+}
+
+.fo1 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.fo1 h1 a {
+    text-decoration: none;
+}
+
+.fo1 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.fo1 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.fo .fo2 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/12.jpg) no-repeat;
+    background-size:110% 100%;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px;
+}
+/* ===================== */
+
+
+.Abt .Abt11{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+ .Abt11 .in11 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/sh1.jpg) no-repeat;
+    background-size:100% 100% ;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px;
+    
+}
+
+.Abt11 .in22 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    
+}
+
+.in22 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.in22 h1 a {
+    text-decoration: none;
+}
+
+.in22 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.in22 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* ============================ */
+.Abt .foo {
+    height: 400px;
+    width: 90%;
+    background-color: white;
+   display: flex;
+}
+
+.foo .fo11 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+  
+}
+
+.fo11 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.fo11 h1 a {
+    text-decoration: none;
+}
+
+.fo11 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.fo11 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.foo .fo22 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/sh2.jpg) no-repeat;
+    background-size:100% 100% ;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px;
+}
+/* ===================== */
+
+
+.Fct {
+    height: 350px;
+    width: 100%;
+    background-color: white;
+}
+.Fct .fc1{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(213, 235, 128);
+}
+.fc1 h1{
+    text-align: center;
+    line-height: 100px;
+    color: rgb(14, 14, 74);
+}
+.ic {
+    height: 250px;
+    width: 90%;
+    background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.ic1 {
+    height: 200px;
+    width: 25%;
+    border: 2px solid black;
+    /* float: left; */
+    /* margin-left: 130px; */
+}
+
+.ic1 h2 {
+    color: rgb(14, 14, 74);
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ic1 h1 {
+    color: black;
+    text-align: center;
+    /* margin-top: 30px; */
+}
+
+
+.ic2 {
+    height: 200px;
+    width: 25%;
+    border: 2px solid black;
+    /* float: left; */
+    margin-left: 40px;
+}
+
+.ic2 h2 {
+    color: rgb(14, 14, 74);
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ic2 h1 {
+    color: black;
+    text-align: center;
+}
+
+.ic3 {
+    height: 200px;
+    width: 25%;
+    border: 2px solid black;
+    /* float: left; */
+    margin-left: 40px;
+}
+
+.ic3 h2 {
+    color: rgb(14, 14, 74);
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ic3 h1 {
+    color: black;
+    text-align: center;
+}
+/* =============play=========== */
+
+.Grd {
+    height: 1600px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+.Grd .Grd1{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+ .Grd1 .g1 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/sh3.jpg) no-repeat;
+    background-size:110% 100% ;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px ;
+    
+}
+
+.Grd1 .g2 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    
+}
+
+.g2 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.g2 h1 a {
+    text-decoration: none;
+}
+
+.g2 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.g2 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* ============================ */
+.Grd .r {
+    height: 400px;
+    width: 90%;
+    background-color: white;
+   display: flex;
+}
+
+.r .r1 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+  
+}
+
+.r1 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.r1 h1 a {
+    text-decoration: none;
+}
+
+.r1 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.r1 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.r .r2 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/sh4.jpg) no-repeat;
+    background-size:110% 100%;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px;
+}
+/* ===================== */
+
+
+.Grd .Grd11{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+ .Grd11 .g11 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/sh6.jpg) no-repeat;
+    background-size:100% 100% ;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px;
+    
+}
+
+.Grd11 .g22 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    
+}
+
+.g22 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.g22 h1 a {
+    text-decoration: none;
+}
+
+.g22 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.g22 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* ============================ */
+.Grd .r {
+    height: 400px;
+    width: 90%;
+    background-color: white;
+   display: flex;
+}
+
+.r .r11 {
+    height: 100%;
+    width: 70%;
+    background-color: white;
+  
+}
+
+.r11 h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.r11 h1 a {
+    text-decoration: none;
+}
+
+.r11 p {
+    margin: 30px 70px 0px 40px;
+}
+
+.r11 button {
+    background-color: rgb(14, 14, 74);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.Grd .r22 {
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    background: url(./schpic/sh5.jpg) no-repeat;
+    background-size:100% 100% ;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 30px 0 30px;
+}
+/* ================================ */
+.Glry{
+    height: 1250px;
+    width: 100%;
+    background-color: brown;
+}
+.Glry .gl{
+    height: 100px;
+    width: 100%;
+    background-color:  rgb(213, 235, 128);
+}
+.gl h1{
+    text-align: center;
+    line-height: 100px;
+    color: rgb(14, 14, 74);
+}
+.a{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(224, 251, 251);
+    display: flex;
+}
+.a1{
+    height: 100%;
+    width: 33.33%;
+    background-color: aquamarine;
+    background: url(./schpic/gg1.png) no-repeat;
+    background-size: 100% 100%;
+    /* float: left; */
+}
+.a2{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(213, 226, 215);
+    background: url(./schpic/gg3.jpg) no-repeat;
+    background-size: 100% 100%;
+    /* float: left; */
+}
+.a3{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(251, 141, 44);
+    background: url(./schpic/gg2.jpg) no-repeat;
+    background-size: 100% 100%;
+    /* float: left; */
+}
+.b{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(224, 251, 251);
+    display: flex;
+}
+.b1{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(127, 174, 255);
+    background: url(./schpic/gg4.jpg) no-repeat;
+    background-size: 100% 100%;
+    /* float: left; */
+}
+.b2{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(246, 83, 230);
+    background: url(./schpic/gg5.jpg) no-repeat;
+    background-size: 100% 100%;
+    /* float: left; */
+}
+.b3{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(133, 75, 127);
+    background: url(./schpic/gg6.jpg) no-repeat;
+    background-size: 100% 100%;
+    /* float: left; */
+}
+.c{
+    height: 550px;
+    width: 100%;
+    background-color: blue;
+    background: url(./schpic/gg7.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+/* ===================== */
+
+.end {
+    height: 500px;
+    width: 100%;
+    background-color: bisque;
+}
+
+.end .q {
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    float: left;
+}
+
+.q h1 {
+    margin-left: 40px;
+    margin-top: 50px;
+    color: aqua;
+}
+
+.q ul li {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.end .ct {
+    height: 100%;
+    width: 37.5%;
+    background-color: black;
+    float: left;
+}
+
+.ct h1 {
+    margin-left: 90px;
+    margin-top: 50px;
+    color: aqua;
+}
+
+.ct ul li {
+    margin:50px 0 0 100px;
+    color: white;
+}
+
+.end .mp {
+    height: 100%;
+    width: 37.5%;
+    background-color: black;
+    float: left;
+}
+.mp h1{
+    margin-top: 50px;
+    margin-left: 80px;
+    color: aqua;
+}
+
+.mp .mp1 {
+    height: 280px;
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.mp1 iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.lt {
+    height: 50px;
+    width: 100%;
+    background-color:  rgb(213, 235, 128);
+    ;
+}
+.lt h2{
+    text-align: center;
+    line-height: 50px;
+}
